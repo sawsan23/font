@@ -1,0 +1,23 @@
+@font-face { font-family:'Myanmar3';
+    src:local('Myanmar3'), url('http://sawsan.pe.hu/fonts/myanmar3.ttf')format("truetype"), url (www.telenor.com.mm/fonts/myanmar/myanmar3.ttf)format("truetype");
+	-webkit-font-smoothing: antialiased ;
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.3);
+	font-weight: normal;
+	font-style: normal;
+	unicode-range: U +1000 -109 F;
+}
+
+html, body.home, body.single, #page, #main, #primary, #content {
+	font-family: Myanmar3,Yunghkio;
+	font-weight: normal;
+	letter-spacing: normal !important;	
+	text-align: justify;	
+}
+
+h2.site-description { font-size: 1em; }
+h1.site-title a { font-size: 1.05em; }
+.entry-header { font-size: 1.27em; }
+.entry-content p { font-size: 1.25em; text-align: justify; }
+
+
+@font-face{font-family:'Myanmar3';src:local('Myanmar3'),url('localhost/fonts/myanmar3.ttf');}
